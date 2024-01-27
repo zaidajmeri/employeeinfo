@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #76b8e8, #b1afff); /* Adjust colors as needed */
+
+}
+
+h2 {
+    background: linear-gradient(to right, #7897ae, #7673e6);
+    /* Gradient color for h2 */
+    color: #fff;
+    /* Text color to be visible on the gradient background */
+    padding: 10px;
+    /* Add padding for better visibility */
+    text-align: center;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.offcanvas-body {
+    padding: 15px;
+}
+
+.offcanvas-header,
+.offcanvas-title {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.offcanvas-body {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.box {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    /* Adjust if needed */
+}
+
+.box label {
+    margin-bottom: 5px;
+}
+
+.box input {
+    padding: 8px;
+}
+
+.form button {
+    margin-top: 15px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
+
+.btn-primary,
+.btn-danger {
+    margin-right: 5px;
+}
+
+/* Initially hide the table */
+.table {
+    display: none;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
